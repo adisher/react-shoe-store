@@ -16,10 +16,10 @@ function App() {
   return (
     <>
       
-        <AppBar position="sticky" style={{backgroundColor: "transparent"}}>
+        <AppBar position="sticky" style={{backgroundColor: "darkgrey"}}>
           <Toolbar style={{backgroundColor: "transparent", display: "flex", justifyContent: "space-around"}}>
-            <Link style={{textShadow:`0px 4px 4px rgba(0, 0, 0, 0.25)`, fontWeight: `bold`, fontSize: `32px`, textDecoration: `none`}} to="/">Home</Link>
-            <Link style={{textShadow:`0px 4px 4px rgba(0, 0, 0, 0.25)`, fontWeight: `bold`, fontSize: `32px`, textDecoration: `none`}} to="/launch">Store</Link>
+            <Link style={{color: `mintcream`, textShadow:`0px 4px 4px rgba(0, 0, 0, 0.25)`, fontWeight: `bold`, fontSize: `32px`, textDecoration: `none`}} to="/">Home</Link>
+            <Link style={{color: `mintcream`, textShadow:`0px 4px 4px rgba(0, 0, 0, 0.25)`, fontWeight: `bold`, fontSize: `32px`, textDecoration: `none`}} to="/launch">Store</Link>
           </Toolbar>
         </AppBar>
 
