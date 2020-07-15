@@ -2,7 +2,7 @@ import React from 'react'
 import {shoes} from './dataset'
 import { Link } from 'react-router-dom'
 import { makeStyles } from "@material-ui/core/styles"
-import { Grid, Card, CardMedia, CardContent, Typography, Container, GridList, GridListTile, GridListTileBar } from '@material-ui/core'
+import { Container, GridList, GridListTile, GridListTileBar } from '@material-ui/core'
 
 
 const useStyles = makeStyles(theme => ({
